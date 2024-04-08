@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NCOU Community</title>
+  <style>
+    /* Reset CSS */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Global styles */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0; /* Updated background color */
+      color: #333; /* Updated text color */
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    /* Header styles */
+    header {
+      background-color: #005b96;
+      color: #fff;
+      padding: 40px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 18px;
+    }
+
+    /* Slider styles */
+    .slider {
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 40px;
+    }
+
+    .slides {
+      display: flex;
+      transition: transform 0.5s ease;
+    }
+
+    .slide {
+      min-width: 100%;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .slide img {
+      position: relative;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: auto; /* Change height to auto for responsive scaling */
+      object-fit: cover;
+      filter: brightness(60%); /* Adjust brightness of the background image */
+    }
+
+    .slide-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: #fff;
+      padding: 20px;
+      background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background color for text */
+    }
+
+    .slide-content h2 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    .slide-content p {
+      font-size: 18px;
+    }
+
+    /* Main Content styles */
+    .main-content {
+      text-align: center;
+      padding: 40px 0;
+    }
+
+    .focus-area {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .focus-card {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      text-align: center;
+      width: calc(33.33% - 40px);
+    }
+
+    .focus-icon {
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .focus-description h3 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+
+    .focus-description p {
+      font-size: 16px;
+    }
+
+    .cta {
+      margin-top: 40px;
+    }
+
+    .cta p {
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      padding: 10px 20px;
+      background-color: #2ecc71;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #27ae60;
+    }
+
+    /* Footer styles */
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      font-size: 18px; /* Increase the font size of the navigation links */
+      transition: color 0.3s ease; /* Add transition effect for color change */
+    }
+
+    nav ul li a:hover {
+      color: #005b96; /* Change color on hover */
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <img src="images/nco_logo.png" alt="NCOU Logo" style="width: 150px; height: auto;">
+      <h1>Welcome to NCOU Community</h1>
+      <p>A place where we serve, empower, and thrive together.</p>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <ul style="list-style: none; text-align: center; margin-top: 20px;">
+      <li style="display: inline-block; margin-right: 20px;"><a href="#" style="text-decoration: none; color: #333;">Home</a></li>
+      <li style="display: inline-block; margin-right: 20px;"><a href="#" style="text-decoration: none; color: #333;">About Us</a></li>
+      <li style="display: inline-block; margin-right: 20px;"><a href="#" style="text-decoration: none; color: #333;">Programs</a></li>
+      <li style="display: inline-block; margin-right: 20px;"><a href="#" style="text-decoration: none; color: #333;">Get Involved</a></li>
+      <li style="display: inline-block;"><a href="#" style="text-decoration: none; color: #333;">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- Slider -->
+  <div class="slider">
+    <div class="slides">
+      <div class="slide">
+        <img src="images/img1.jpeg" alt="Slide 1">
+        <div class="slide-content">
+          <h2>Welcome to NCOU Community</h2>
+          <p>A place where we serve, empower, and thrive together.</p>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="images/img2.jpeg" alt="Slide 2">
+        <div class="slide-content">
+          <h2>Empowering Communities</h2>
+          <p>Join us in making a difference in our community.</p>
+        </div>
+      </div>
+      <div class="slide">
+        <img src="images/img1.jpeg" alt="Slide 3">
+        <div class="slide-content">
+          <h2>Together, We Thrive</h2>
+          <p>Together, we can achieve great things. Get involved today!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main Content -->
+  <section class="main-content">
+    <div class="container">
+      <h2>Our Focus Areas</h2>
+      <div class="focus-area">
+        <div class="focus-card">
+          <div class="focus-icon">
+            <img src="images/tea.png" alt="Your Icon" style="width: 50px; height: 50px;"></div>
+          <div class="focus-description">
+            <h3>Agri-business and Livelihood</h3>
+            <p>Empowering communities through sustainable agriculture and livelihood projects.</p>
+          </div>
+        </div>
+        <div class="focus-card">
+            <div class="focus-icon">
+                <img src="images/tea.png" alt="Your Icon" style="width: 50px; height: 50px;">
+              </div>
+          <div class="focus-description">
+            <h3>Education and Skill Development</h3>
+            <p>Providing educational opportunities and skill development programs for community members.</p>
+          </div>
+        </div>
+        <div class="focus-card">
+          <div class="focus-icon">
+            <img src="images/education.png" alt="Your Icon" style="width: 50px; height: 50px;"></div>
+          
+          <div class="focus-description">
+            <h3>Health and Wellness</h3>
+            <p>Promoting health and wellness initiatives to improve the quality of life in our community.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Call-to-action section -->
+      <div class="cta">
+        <h2>Get Involved</h2>
+        <p>Join us in making a difference in our community.</p>
+        <button class="btn">Donate Now</button>
+        <button class="btn">Volunteer</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 NCOU Community. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Script for Slider -->
+  <script>
+    const slides = document.querySelectorAll('.slide');
+    const slider = document.querySelector('.slides');
+
+    let currentIndex = 0;
+
+    setInterval(() => {
+      currentIndex = (currentIndex + 1) % slides.length;
+      slider.style.transform = `translateX(-${currentIndex * 100}%)`;
+    }, 5000); // Change slide every 5 seconds
+  </script>
+
+</body>
+</html>
