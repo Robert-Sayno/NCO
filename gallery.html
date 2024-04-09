@@ -129,6 +129,29 @@
       padding: 20px 0;
       text-align: center;
     }
+
+    .gallery-item {
+  flex-basis: calc(33.33% - 20px); /* Adjust card width */
+  margin-bottom: 20px; /* Add margin between cards */
+}
+
+.card {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.card:hover img {
+  transform: scale(1.1);
+}
+
   </style>
 </head>
 <body>
@@ -152,32 +175,64 @@
       </ul>
     </div>
   </nav>
+<!-- Gallery -->
 
-  <!-- Gallery -->
-
-  <div class="container">
+<div class="container">
     <div class="gallery">
       <div class="gallery-item">
-        <img src="images/img1.jpeg" alt="Gallery Image 1">
-        <div class="overlay">
-          <div class="overlay-content">
-            <h3>Event 1</h3>
-            <p>Description of Event 1</p>
+        <div class="card">
+          <img src="images/img1.jpeg" alt="Gallery Image 1">
+          <div class="overlay">
+            <div class="overlay-content">
+              <h3>Event 1</h3>
+              <p>Description of Event 1</p>
+            </div>
           </div>
         </div>
       </div>
       <div class="gallery-item">
-        <img src="images/img1.jpeg" alt="Gallery Image 2">
-        <div class="overlay">
-          <div class="overlay-content">
-            <h3>Event 2</h3>
-            <p>Description of Event 2</p>
+        <div class="card">
+          <img src="images/img2.jpeg" alt="Gallery Image 2">
+          <div class="overlay">
+            <div class="overlay-content">
+              <h3>Event 2</h3>
+              <p>Description of Event 2</p>
+            </div>
           </div>
         </div>
       </div>
       <!-- Add more gallery items here -->
     </div>
   </div>
+
+<div class="container">
+    <div class="gallery">
+      <div class="gallery-item">
+        <div class="card">
+          <img src="images/img1.jpeg" alt="Gallery Image 1">
+          <div class="overlay">
+            <div class="overlay-content">
+              <h3>Event 1</h3>
+              <p>Description of Event 1</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="gallery-item">
+        <div class="card">
+          <img src="images/img2.jpeg" alt="Gallery Image 2">
+          <div class="overlay">
+            <div class="overlay-content">
+              <h3>Event 2</h3>
+              <p>Description of Event 2</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Add more gallery items here -->
+    </div>
+  </div>
+  
 
   <!-- Footer -->
   <footer>

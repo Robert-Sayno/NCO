@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Volunteer Registration - NCOU Community</title>
+  <style>
+    /* Reset CSS */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Global styles */
+    body {
+  font-family: Arial, sans-serif;
+  background-image: url('images/img2.jpeg'); /* Background image */
+  background-color: rgba(255, 255, 255, 0.8); /* Faint white overlay */
+  color: #333;
+  background-repeat: no-repeat; /* Prevent background image from repeating */
+  background-size: cover; /* Cover entire background */
+  opacity: 0.8; /* Adjust background image opacity */
+}
+
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    /* Form styles */
+    form {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+      display: block;
+      margin-bottom: 5px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+    }
+
+    input[type="submit"] {
+      background-color: #005b96;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #00487d;
+    }
+
+    /* Navigation styles */
+    nav {
+      background-color: #005b96;
+      padding: 10px 0;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    nav ul {
+      list-style: none;
+    }
+
+    nav ul li {
+      display: inline;
+    }
+
+    nav ul li:not(:last-child) {
+      margin-right: 20px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 18px;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #00487d;
+    }
+
+    /* Footer styles */
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#" style="text-decoration: none;">Home</a></li>
+      <li><a href="#" style="text-decoration: none;">About Us</a></li>
+      <li><a href="#" style="text-decoration: none;">Programs</a></li>
+      <li><a href="#" style="text-decoration: none;">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <h2>Volunteer Registration Form</h2>
+    <form action="#" method="post">
+      <label for="fullname">Full Name:</label>
+      <input type="text" id="fullname" name="fullname" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone Number:</label>
+      <input type="text" id="phone" name="phone" required>
+
+      <label for="program">Program of Interest:</label>
+      <select id="program" name="program">
+        <option value="agri-business">Agri-business and Livelihood</option>
+        <option value="education">Education Support</option>
+        <option value="environment">Environment Protection</option>
+        <!-- Add more options as needed -->
+      </select>
+
+      <input type="submit" value="Register">
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 NCOU Community. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
