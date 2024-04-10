@@ -158,7 +158,7 @@
     nav ul li a {
     text-decoration: none;
     color: #333;
-    font-size: 18px; /* Increase the font size of the navigation links */
+    font-size: 25px; /* Increase the font size of the navigation links */
     transition: color 0.3s ease; /* Add transition effect for color change */
   }
 
@@ -192,11 +192,12 @@
   <!-- Navigation -->
   <nav>
     <ul style="list-style: none; text-align: center; margin-top: 20px;">
-      <li style="display: inline-block; margin-right: 20px;"><a href="#" style="text-decoration: none; color: #333;">Home</a></li>
-      <li style="display: inline-block; margin-right: 20px;"><a href="#" style="text-decoration: none; color: #333;">About Us</a></li>
-      <li style="display: inline-block; margin-right: 20px;"><a href="#" style="text-decoration: none; color: #333;">Programs</a></li>
-      <li style="display: inline-block; margin-right: 20px;"><a href="#" style="text-decoration: none; color: #333;">Get Involved</a></li>
-      <li style="display: inline-block;"><a href="#" style="text-decoration: none; color: #333;">Contact Us</a></li>
+      <li style="display: inline-block; margin-right: 20px;"><a href="index.php" style="text-decoration: none; color: #333;">Home</a></li>
+      <li style="display: inline-block; margin-right: 20px;"><a href="about.php" style="text-decoration: none; color: #333;">About Us</a></li>
+      <li style="display: inline-block; margin-right: 20px;"><a href="programs.php" style="text-decoration: none; color: #333;">Programs</a></li>
+      <li style="display: inline-block; margin-right: 20px;"><a href="get_involved.php" style="text-decoration: none; color: #333;">Get Involved</a></li>
+      <li style="display: inline-block; margin-right: 20px;"><a href="gallery.php" style="text-decoration: none; color: #333;">Gallery</a></li>
+      <li style="display: inline-block;"><a href="contact.php" style="text-decoration: none; color: #333;">Contact Us</a></li>
     </ul>
   </nav>
 

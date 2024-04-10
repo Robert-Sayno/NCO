@@ -132,10 +132,10 @@
   <nav>
     <div class="container">
       <ul>
-        <li><a href="#" style="text-decoration: none; color: #fff;">Home</a></li>
-        <li><a href="#" style="text-decoration: none; color: #fff;">About Us</a></li>
-        <li><a href="#" style="text-decoration: none; color: #fff;">Programs</a></li>
-        <li><a href="#" style="text-decoration: none; color: #fff;">Get Involved</a></li>
+        <li><a href="index.php" style="text-decoration: none; color: #fff;">Home</a></li>
+        <li><a href="about.php" style="text-decoration: none; color: #fff;">About Us</a></li>
+        <li><a href="programs.php" style="text-decoration: none; color: #fff;">Programs</a></li>
+        <li><a href="get_involved.php" style="text-decoration: none; color: #fff;">Get Involved</a></li>
       </ul>
     </div>
   </nav>

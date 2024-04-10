@@ -117,6 +117,7 @@
       color: #fff;
       margin-bottom: 10px;
     }
+    
 
     .overlay-content p {
       color: #fff;
@@ -136,7 +137,7 @@
 }
 
 .card {
-  border-radius: 10px;
+  border-radius: 20px;
   overflow: hidden;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   cursor: pointer;
@@ -168,10 +169,10 @@
   <nav>
     <div class="container">
       <ul>
-        <li><a href="#" style="text-decoration: none; color: #fff;">Home</a></li>
-        <li><a href="#" style="text-decoration: none; color: #fff;">About Us</a></li>
-        <li><a href="#" style="text-decoration: none; color: #fff;">Programs</a></li>
-        <li><a href="#" style="text-decoration: none; color: #fff;">Contact Us</a></li>
+        <li><a href="index.php" style="text-decoration: none; color: #fff;">Home</a></li>
+        <li><a href="about.php" style="text-decoration: none; color: #fff;">About Us</a></li>
+        <li><a href="programs.php" style="text-decoration: none; color: #fff;">Programs</a></li>
+        <li><a href="contact.php" style="text-decoration: none; color: #fff;">Contact Us</a></li>
       </ul>
     </div>
   </nav>
@@ -181,7 +182,7 @@
     <div class="gallery">
       <div class="gallery-item">
         <div class="card">
-          <img src="images/img1.jpeg" alt="Gallery Image 1">
+          <img src="images/gallery/img6.jpeg" alt="Gallery Image 1">
           <div class="overlay">
             <div class="overlay-content">
               <h3>Event 1</h3>

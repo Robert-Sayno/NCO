@@ -56,7 +56,8 @@
 
     nav ul li a {
       text-decoration: none;
-      color: #fff;
+      color: white;
+      background color: purple;
       font-size: 20px; /* Increased font size */
       transition: color 0.3s ease;
     }
@@ -197,10 +198,10 @@
   <!-- Navigation -->
   <nav>
     <ul>
-      <li><a href="#" style="text-decoration: none; color: #fff;">Home</a></li>
-      <li><a href="#" style="text-decoration: none; color: #fff;">Programs</a></li>
-      <li><a href="#" style="text-decoration: none; color: #fff;">Get Involved</a></li>
-      <li><a href="#" style="text-decoration: none; color: #fff;">Contact Us</a></li>
+      <li><a href="index.php" style="text-decoration: none; color: #fff;">Home</a></li>
+      <li><a href="programs.php" style="text-decoration: none; color: #fff;">Programs</a></li>
+      <li><a href="get_involved.php" style="text-decoration: none; color: #fff;">Get Involved</a></li>
+      <li><a href="contact.php" style="text-decoration: none; color: #fff;">Contact Us</a></li>
     </ul>
   </nav>
 
@@ -241,14 +242,14 @@
     <h2>Our Team</h2>
     <div class="staff-section">
       <div class="staff-member">
-        <img src="images/img1.jpeg" alt="Staff 1">
-        <h3>John Doe</h3>
+        <img src="images/team/me.jpeg" alt="Staff 1">
+        <h3>Robert Ssenono</h3>
         <p>CEO</p>
       </div>
       <div class="staff-member">
-        <img src="images/img1.jpeg" alt="Staff 2">
-        <h3>Jane Smith</h3>
-        <p>Program Manager</p>
+        <img src="images/team/me on mic.jpg" alt="Staff 2">
+        <h3>Robert Ssenono</h3>
+        <p>Web master</p>
       </div>
       <!-- Add more staff members here -->
     </div>
